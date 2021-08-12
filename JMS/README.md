@@ -13,24 +13,19 @@ Add the jars to the top level JMS folder, these commands will then work
 
 ## Intro to JMS Samples
 
+<details>
 ### Stand alone JMS samples
-
 **JmsPut.java** - Puts message to a queue
-
 **JmsGet.java** - Gets message from a queue
-
 **JmsSub.java** - Subscribes to a topic string and gets publications/messages
-
 **JmsPub.java** - Publishes messages to a topic string
-
 **JmsRequest.java** - Puts a message on a request queue and waits for a response
-
 **JmsResponse.java** - Gets message from a request queue, does something with the message and puts it to the reply queue.
-
 **RequestCalc.java** - Builds string for message for JmsRequest, does the calculation for the JmsResponse.
-
 **SampleEnvSetter.java** - Used by all stand alone samples to read the variable from the env.json. Used by the decoupled samples through the ConnectionHelper.
 Encapsulates the reading of MQ environment variables and allows all the samples to use a common set.
+</details>
+
 
 
 
