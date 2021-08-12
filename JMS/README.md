@@ -29,6 +29,7 @@ Encapsulates the reading of MQ environment variables and allows all the samples 
 
 
 
+
 ### Refactored samples to reduce duplication
 
 ***BasicConsumer.java*** - Common class to receive messages and publications
@@ -245,3 +246,4 @@ To run the samples with TLS you need to provide additional arguments;
  *A note on the* `Dcom.ibm.mq.cfg.useIBMCipherMappings=false` property
 
 This is needed as the samples were tested in an enviroment with the Oracle JRE installed. Depending on whether you have Oracle or IBM JRE installed, you also need to name the cipher suite/spec accordingly. See the table here [TLS CipherSpecs and CipherSuites in IBM MQ classes for JMS](https://www.ibm.com/support/knowledgecenter/SSFKSJ_9.1.0/com.ibm.mq.dev.doc/q113220_.htm)
+

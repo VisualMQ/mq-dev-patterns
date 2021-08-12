@@ -192,6 +192,10 @@ Do not install any application requirements until
 
 `DYLD_LIBRARY_PATH` are set and exported (see language README docs for more info).
 
+## README docs
 
-
+## [Node.js](/Node.js/README.md)
 ## [JMS](/JMS/README.md)
+## [Python](/Python/README.md)
+## [C# .Net](/dotnet/README.md)
+## [Go](/Go/README.md)
