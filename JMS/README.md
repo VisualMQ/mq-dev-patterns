@@ -131,7 +131,11 @@ and run
 
 If you have used maven to build the samples, you can run
 
-`java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsPut`
+```shell
+java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsPut
+```
+
+
 
 
 In a separate terminal, from the top level JMS folder, compile first
@@ -144,7 +148,9 @@ and run
 
 If you have used maven to build the samples, you can run
 
-`java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsGet`
+```shell
+java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsGet
+```
 
 
 
