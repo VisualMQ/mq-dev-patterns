@@ -1,4 +1,3 @@
-[TOC]
 
 # How to Connect IBM Cloud MQ using JMS 
 
