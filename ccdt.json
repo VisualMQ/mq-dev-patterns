@@ -1,42 +1,20 @@
 {
-  "channel": [{
-      "name": "DEV.APP.SVRCONN",
+  "channel": [
+    {
+      "name": "CLOUD.APP.SVRCONN",
       "clientConnection": {
-        "connection": [{
-          "host": "127.0.0.1",
-          "port": 1414
-         },{
-          "host": "127.0.0.1",
-          "port": 1416
-          }],
-        "queueManager": "QMGroupA"
-      },
-      "type": "clientConnection"
-    },{
-        "name": "DEV.APP.SVRCONN",
-        "clientConnection": {
-          "connection": [{
-            "host": "127.0.0.1",
-            "port": 1416
-          },{
-            "host": "127.0.0.1",
-            "port": 1414
-            }],
-          "queueManager": "QMGroupB"
-        },
-        "type": "clientConnection"
-      },{
-      "name": "DEV.APP.SVRCONN",
-      "clientConnection": {
-        "connection": [{
-          "host": "127.0.0.1",
-          "port": 1415
-        }],
-        "queueManager": "QM1TLS"
+        "connection": [
+          {
+            "host": "qm1-3628.qm.eu-gb.mq.appdomain.cloud",
+            "port": 31788
+          }
+        ],
+        "queueManager": "QM1"
       },
       "transmissionSecurity": {
-        "cipherSpecification" : "TLS_RSA_WITH_AES_128_CBC_SHA256"
+        "cipherSpecification": "ANY_TLS12_OR_HIGHER"
       },
       "type": "clientConnection"
-    }]
+    }
+  ]
 }

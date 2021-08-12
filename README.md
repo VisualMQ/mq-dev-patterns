@@ -1,12 +1,18 @@
+## IBM MQ Java Sample: put/get
+
+
+
+
+
 ## IBM MQ samples and patterns
 
-When your application needs messaging, you don’t want to spend countless hours learning the basics, you want to jump straight in and play, see how things work.
+==When your application needs messaging, you don’t want to spend countless hours learning the basics, you want to jump straight in and play, see how things work.==
 
-We have taken parts that make up the current set of our IBM MQ samples and built applications that you can use to do just that.
+==We have taken parts that make up the current set of our IBM MQ samples and built applications that you can use to do just that.==
 
-You'll find `put/get`, `pub/sub`, `request/response` samples that you can run in the same language or you can try mixing things up and do a `put` in Java, `get` with Go etc.
+==You'll find `put/get`, `pub/sub`, `request/response` samples that you can run in the same language or you can try mixing things up and do a `put` in Java, `get` with Go etc.==
 
-There is a [README for each language](#readme-docs) that helps you with the initial setup.
+==There is a [README for each language](#readme-docs) that helps you with the initial setup.==
 
 You need an MQ server with a queue or topic to run these samples against. To find out more about what MQ is and how it works, start from [LearnMQ](https://developer.ibm.com/messaging/learn-mq/).
 

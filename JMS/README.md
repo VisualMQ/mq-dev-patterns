@@ -61,9 +61,6 @@ For TLS info, see the end of this document.
 ## Maven
 A maven `pom.xml` is provided allowing you to use maven to download dependancies and build the samples. A symbolic link links the maven required `./src/main/java/com` directory to the `./com` directory.
 
-<details>
-
-</details>
 ### Downloading dependencies with maven
 Whenever you build the samples with maven the dependencies will be downloaded and stored in your local maven repository. You can override this location, but by
 default the repository location will be:
@@ -153,7 +150,10 @@ If you have used maven to build the samples, you can run
 
 `java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsGet`
 
+
+
 ## Publish / Subscribe
+
 Open two terminals.
 
 In the first terminal;
