@@ -67,9 +67,11 @@
 
 #### Where can I find the APP_USER and APP_PASSWORD for env.json?
 
-1.   Manage -> Access(IAM) -> API Keys -> Create an IBM Cloud API Key
+1.   Your personal user name and API key: Manage -> Access(IAM) -> API Keys -> Create an IBM Cloud API Key
 
      <img src="assets/image-20210814141459587.png" alt="image-20210814141459587" style="zoom: 33%;" />
 
+2.   Or you can use your application's name and API key: Manage-> Application credentials -> Add
 
+     <img src="assets/image-20210814145203800.png" alt="image-20210814145203800" style="zoom:50%;" />
 

@@ -54,7 +54,8 @@ public class JmsGet {
 
     private static String CCDTURL;
 
-    private static long TIMEOUTTIME = 5000;  // 5 Seconds
+    //private static long TIMEOUTTIME = 5000;  // 5 Seconds
+    private static long TIMEOUTTIME = 300000;  // 5 minutes, change timeout
 
     public static void main(String[] args) {
         logger.info("Get application is starting");
