@@ -1,9 +1,9 @@
 
 # How to Connect IBM Cloud MQ using JMS 
 
+[TOC]
 
-
-## Simplify Steps
+## Simplified Steps (Put/Get)
 
 
 
@@ -11,6 +11,8 @@
 
      ```shell
      export MQCCDTURL=file:///Users/xyz/Documents/dev/mqsamples/mq-dev-patterns/ccdt.json
+     
+     export MQCCDTURL=file:///Users/janeadrea/Developer/GitHub/mq-dev-patterns/ccdt.json
      ```
 
 2.   Build sample with Maven
@@ -58,4 +60,14 @@
 2.   Channel: You can find these inside your ccdt.jsonfile
 
 3.   APP_USER and APP_PASSWORD: the user name and api key of your IBM account
+
+
+
+#### Where can I find the APP_USER and APP_PASSWORD for env.json?
+
+1.   Manage -> Access(IAM) -> API Keys -> Create an IBM Cloud API Key
+
+     <img src="assets/image-20210814141459587.png" alt="image-20210814141459587" style="zoom: 33%;" />
+
+
 
