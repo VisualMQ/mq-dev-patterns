@@ -3,6 +3,10 @@
 
 [TOC]
 
+[🔗Detailed Version](https://github.com/ibm-messaging/mq-dev-patterns)
+
+
+
 ## Simplified Steps (Put/Get)
 
 
@@ -11,10 +15,8 @@
 
      ```shell
      export MQCCDTURL=file:///Users/xyz/Documents/dev/mqsamples/mq-dev-patterns/ccdt.json
-     
-     export MQCCDTURL=file:///Users/janeadrea/Developer/GitHub/mq-dev-patterns/ccdt.json
      ```
-
+     
 2.   Build sample with Maven
 
      ```shell
