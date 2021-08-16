@@ -39,7 +39,6 @@ public class SampleEnvSetter {
 
     public SampleEnvSetter() {
         JSONObject mqEnvSettings = null;
-
         mqEndPoints = null;
 
         try {

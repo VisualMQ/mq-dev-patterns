@@ -10,3 +10,4 @@
 !**/Go/src/*.go
 **/node_modules/*
 .idea
+LOCAL

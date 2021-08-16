@@ -31,7 +31,8 @@ public class BasicSampleDriver {
   private static final String MODE_DEFAULT = MODE_PUT;
 
   private static final int DEFAULT_PUT_COUNT = 10;
-  private static final int TIMEOUT = 10000; // 10 Seconnds
+  //private static final int TIMEOUT = 10000; // 10 Seconnds
+  private static final int TIMEOUT = 300000;  // 5 minutes, change timeout
 
   private static final Logger logger = Logger.getLogger("com.ibm.mq.samples.jms");
 
