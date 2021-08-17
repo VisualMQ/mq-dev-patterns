@@ -23,20 +23,17 @@
 
 1.   Set up `ccdt.json` and `env.json` files appropriately. See below for details.
 
-1.   Put messages to MQ
-
-     ```shell
-     java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsPut
-     ```
-
 1.   Get message from MQ
 
      ```shell
      java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsGet
      ```
 
+1.   Put messages to MQ
 
-
+     ```shell
+     java -cp target/mq-dev-patterns-0.1.0.jar: com.ibm.mq.samples.jms.JmsPut
+     ```
 
 
 ## Help
